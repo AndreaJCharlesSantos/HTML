@@ -1,0 +1,282 @@
+body{
+    background-image: url(../img/background_buildings.png);
+    width:1000px;
+    margin: 0px auto;
+}
+
+.cont-principal{
+    margin: 0 auto;
+    font-family: 'Slabo 27px', serif;
+}
+
+.content{
+    background-color:#FFFFFF;
+    /* margin: -1px; */
+    display:flex;
+    margin-top: -5px;
+}
+/*Para compu jaja*/
+@media (min-width: 0px) and (max-width:999px)
+{
+    a{
+        font-size:20px
+    }
+    body,header,.content-left,.content-right, footer{
+        width: auto;
+    }
+
+}
+
+/*Para cel*/
+@media(max-width:635px){
+
+    footer{
+        display: block;
+    }
+    .foot-logo{
+        height:auto;
+    }
+    .foot-logo p{
+        display: block;
+    }
+    .foot-logo img{
+        width: 30%;
+        height: 50%;
+        display: block;
+    }
+    .content{
+        display:block;  
+        margin-top: -25px;
+
+    }
+    a{
+        font-size: 19px;
+    }
+    .content-left, .content-right{
+        text-align: center;
+        /* padding: 0px; */
+        display: contents;
+    }
+
+    header{
+        display: block;
+        height: auto;
+
+    }
+    nav{
+        display: block;
+        height: auto;
+        width:auto;
+    }
+    nav ul li{
+        display: block;
+        text-align: center;
+        
+    }
+    nav ul li a{
+        font-size:20px;
+    }
+
+}
+
+/*
+.cont-principal{
+    max-width:1000px;
+    margin: 0 auto;
+    font-family: 'Slabo 27px', serif;
+}*/
+
+/*Parte de la cabecera*/
+header{
+    background-color: #000000;
+    color:#FFFFFF;
+    display:flex;
+    margin-top: -8px;
+    /* border-radius: 9px; */
+}
+
+.logo{
+    width: 40%;
+    padding: 0 auto;
+    margin: 30px 0px;
+    text-align: center;
+}
+.log-text{
+    display:inline-block;
+}
+.log-text p{
+    margin:0px;
+}
+.text-cabecera{
+    width: 60%;
+    
+}
+
+/*Esto es del navegador*/
+
+
+nav ul{
+    list-style: none;
+    text-align: left;
+    padding: 0px;
+}
+nav li{
+    display: inline;
+    /* text-align: left; */
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0px;
+    /* border: none; */
+    color: none;
+    padding: 17px 25px;
+}
+nav li a{
+    padding: 2px 7px 2px 7px;
+    color: #000;
+    text-decoration: none;
+
+}
+nav{
+    background: rgb(224,124,4);
+    background: linear-gradient(90deg, rgba(224,124,4,0.8911939775910365) 16%, rgba(240,156,76,0.9192051820728291) 48%, rgba(249,215,182,0.9108018207282913) 96%);
+    padding: 1px;
+    margin:0 auto;
+}
+nav ul li a:hover{
+    background-color: rgb(255, 190, 111);
+    color: #ffffff;
+
+}
+.img-principal img{
+    width: 100%;
+}
+/*Contenido principal*/
+.content a {
+    display: block;
+    text-align: end;
+    color:#48483A;
+}
+
+.content-left, .content-right{
+    padding:30px 50px;
+    width: 50%;
+}
+
+
+.content-left section, .content-left article{
+    border-bottom: 2px solid #48483A;
+}
+.content-img {
+    /* align-items: center; */
+    text-align: center;
+}
+.content-img img{
+    width:25%;
+    border-radius: 10px;
+
+}
+
+.content-hotel img{
+    float:left;
+    margin-right: 10px;
+    width:120px;
+    height:230px;
+}
+
+
+/**/
+.img-telefono img{
+    width: 70%;
+}
+
+/*pie de página*/
+footer {
+    display: flex;
+    background: #323332;
+    color: #FFF;
+    margin-bottom: -8px;
+}
+.foot-logo {
+    padding: 40px 10px 40px 30px;
+    display: flex;
+}
+.foot-logo img{
+    width:20%
+}
+.text {
+    /* padding: 40px; */
+    width: 40%;
+
+}
+
+/*Segunda página. Reutiliza. Head, nav y footer */
+.artist {
+    display: flex;
+}
+
+.artist-image img {
+    border-radius: 16px;
+    width: 130px;
+}
+
+/*Tercera*/
+.content-art {
+    display: flex;
+}
+
+.art-img {
+    margin: 10px;
+    /* text-align: -webkit-right; */
+}
+
+.art-text {
+    /* padding: 10px 20px 0px 0px; */
+    margin: 5px;
+}
+
+.art-img img {
+    border-radius: 20px;
+}
+/*4*/
+.img-venue img {
+    /* width: min-content; */
+    width: 175px;
+}
+
+.cont-venue {display: flex;}
+
+.img-venue {
+    margin: 10px;
+}
+
+/*5*/
+.nombre, .company, .email, .comment {
+    display: inline-flex;
+    margin:10px;
+}
+
+.registro{
+    text-align: end;
+}
+.nombre h4, .company h4, .email h4, .comment h4{
+    /* padding: 1px; */
+    margin: 5px;
+}
+.suscribir h4{
+    margin:0px;
+}
+.seleccion {
+    margin: 10px;
+}
+
+input#correo {
+    width: 200px;
+}
+input#email{
+    width:200px;
+}
+input#comentario{
+    padding:30px;
+}
+

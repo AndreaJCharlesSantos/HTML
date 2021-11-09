@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <title>Survey for Product X</title>
+    
+</head>
+<body>
+    <div class="content">
+        <header>
+            <div class="content-head">
+                <h1>Survey for Product X</h1>
+            </div>
+        </header>
+        <form action="index.html" method="GET" >
+            <!--Contenedor de dispositivos-->
+            <div class="sin-titulo">
+                <div class="color">
+                    <h2>Sección sin título</h2>
+                </div>
+                <div class="Tipos">
+                        <h3>What's type of devices do you have at home?</h3>
+                        <div class="tipos-dispositivo">
+                            <input type="checkbox" name="tipos" id="tipos"value="1"><label for="tipos">Tablet</label>
+                        </div>
+                        <div class="tipos-dispositivo">
+                            <input type="checkbox" name="tipos" id="tipos"value="2"><label for="tipos">Smartphone</label>
+                        </div>
+                        <div class="tipos-dispositivo">
+                            <input type="checkbox" name="tipos" id="tipos"value="3"><label for="tipos">PC</label>
+                        </div> 
+                        <div class="tipos-dispositivo">
+                            <input type="checkbox" name="tipos" id="tipos"value="4"><label for="tipos">Laptop</label>
+                        </div>  
+                        <div class="tipos-dispositivo">
+                            <input type="checkbox" name="tipos" id="tipos"value="5"><label for="tipos">Otro: <input type="text" name="tipos" id="tipos"> </label>
+                        </div>
+                </div>
+            </div>
+            
+            <!--Contenedor de la carrera-->
+            <div class="content-carrera">
+                <h2>Carrera</h2>
+                <div class="carrera">
+                    <select name="carrera" id="carrera">
+                        <option value="0">Elige</option>
+                        <option value="1">ITI</option>
+                        <option value="2">ISA</option>
+                        <option value="3">MECA</option>
+                        <option value="4">PYMES</option>
+                    </select>
+                </div>
+            </div>
+            <!--Contenedor de comentarios-->
+            <div class="content-comentarios">
+                <h2>Write your comments<h2>
+                <input type="text" name="comentario" id="comentario" placeholder="Tu respuesta">
+            </div>
+
+            <!--Contendedor de inglés-->
+            <div class="content-ingles">
+                    <h2>What's you level of english?</h2>
+                    <div class="fila-ing">
+                        <h3>Basic</h3>
+                        <div class="nivel-ingles">
+                            <input type="radio" name="nivel" id="nivel"value="1"><label for="">1</label>
+                        </div>
+                        <div class="nivel-ingles">
+                            <input type="radio" name="nivel" id="nivel"value="1"><label for="">2</label>
+                        </div>
+                        <div class="nivel-ingles">
+                            <input type="radio" name="nivel" id="nivel"value="1"><label for="">3</label>
+                        </div>
+                        <div class="nivel-ingles">
+                            <input type="radio" name="nivel" id="nivel"value="1"><label for="">4</label>
+                        </div>
+                        <div class="nivel-ingles">
+                            <input type="radio" name="nivel" id="nivel"value="1"><label for="">5</label>
+                        </div>
+                        
+                    <h3>More advanced</h3>
+                    </div>
+                </div>
+                <!--Contenedor de opinión-->
+                <div class ="content-opinion">
+                    <h2>Give us you opinion</h2>
+                    <table class="table">
+                        <thead>
+                            <tr class="col">
+                                <th></th>
+                                <th>Bad</th>
+                                <th>Regular</th>
+                                <th>Good</th>
+                                <th>Excelent</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="col">
+                                <td>Room service</td>
+                                <td><input type="radio" name="room" id="room"value="bad"></td>
+                                <td><input type="radio" name="room" id="room"value="regular"></td>
+                                <td><input type="radio" name="room" id="room"value="good"></td>
+                                <td><input type="radio" name="room" id="room"value="excelent"></td>
+                            </tr>
+                            <tr class="col">
+                                <td>Reservation service</td>
+                                <td><input type="radio" name="reservation" id="reservation"value="bad"></td>
+                                <td><input type="radio" name="reservation" id="reservation"value="regular"></td>
+                                <td><input type="radio" name="reservation" id="reservation"value="good"></td>
+                                <td><input type="radio" name="reservation" id="reservation"value="excelent"></td>
+                            </tr>
+                            <tr class="col">
+                                <td>Restaurant</td>
+                                <td><input type="radio" name="restaurant" id="restaurant"value="bad"></td>
+                                <td><input type="radio" name="restaurant" id="restaurant"value="regular"></td>
+                                <td><input type="radio" name="restaurant" id="restaurant"value="good"></td>
+                                <td><input type="radio" name="restaurant" id="restaurant"value="excelent"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                
+            </div>
+            <!--Contenedor de fecha-->
+            <div class="content-fecha">
+                <h2>Date of birth:</h2>
+                <h3>Fecha</h3>
+                <input type="date" name="fecha" id="fecha">
+            </div>
+            <!--Contenedor de botón-->
+
+            <div class="buttons">
+                <div class="button-atras">
+                    <input type="submit" value="Atras">
+                </div>
+                <div class="button-final">
+                    <input type="submit" value="Enviar">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

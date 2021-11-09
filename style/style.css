@@ -1,0 +1,158 @@
+.contenido{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+body{
+    background-color: #bbcab0;
+}
+
+
+nav ul{
+    list-style: none;
+    text-align: left;
+    padding: 0px;
+}
+
+nav li{
+    display: inline;
+    /* text-align: left; */
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0px;
+    /* border: none; */
+    color: none;
+    /* padding: 15px 20px; */
+    margin-right: 5px;
+    /* margin-bottom: 22px; */
+}
+
+nav li a{
+    padding: 2px 7px 2px 7px;
+    color: #000;
+    text-decoration: none;
+
+}
+
+nav{
+    background:#D0E2C3;
+    padding: 1px;
+    margin:0 auto;
+    border-radius: 10px;
+}
+
+nav ul li a:hover{
+    background-color: #b5e990;
+    color: #ffffff;
+
+}
+
+header{
+    display: flex;
+    background-color: #D1E2C0;
+    width:100%;
+    font-family: 'PT Sans Narrow', sans-serif;
+    box-shadow: 0 0 10px #444444;
+
+}
+.imagen{
+    margin:auto;
+    border-radius: 10px;
+    padding:10px;
+}
+.datos-principal{
+    width:50%;   
+    padding: 28px;
+    
+}
+.datos-principal h1{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+}
+
+.datos-personales{
+    padding:5px;
+    font-size: 20px;
+    
+
+}
+.datos-personales li{
+    list-style: none;
+    padding: 5px;
+    display: flex;
+      
+}
+.datos-personales a{
+    text-decoration: none;
+}
+
+.datos-personales img{
+    padding: 5px;
+    width:5%;
+   
+}
+.redes-sociales {
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size:20px;
+    width:50%;
+    text-align: center;
+}
+.clearflix{
+    clear:both;
+}
+.contenido-principal{
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size:15px;
+    margin-top: 20px;
+}
+
+.contenido-principal h2{
+    font-family: 'Hind', sans-serif;
+    text-transform: uppercase;
+}
+.contenido-principal{
+    display:flex;
+}
+.contenido-principal .main{
+    width:70%;
+    box-shadow: 0 0 10px #444444;
+}
+
+.contenido-principal aside{
+    width:30%;
+    box-shadow: 0 0 10px #444444;
+}
+.main, aside{
+    background-color:#D1E2C0;
+    margin: 5px;
+    padding: 10px;
+}
+section {
+    border-bottom: 2px solid #48483A;
+}
+footer{
+    background-color:#D0E2C3;
+    text-align: center;
+    box-shadow: 0 0 10px #444444;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 20px;
+    
+}
+footer h2{
+    text-transform: uppercase;
+    font-size: 33px;
+    padding: 0;
+    margin: 0;
+}
+footer p{
+    padding:0;
+    margin:0;
+    font-weight: 900;
+
+}
+footer ul li{
+    list-style: none;
+}

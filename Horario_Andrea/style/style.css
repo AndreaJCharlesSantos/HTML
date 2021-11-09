@@ -1,0 +1,92 @@
+h1{
+    color:lightseagreen;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top:50px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color:whitesmoke;
+    font-size: 40px;
+    text-align: center;
+}
+
+h2{
+    color:slateblue;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+.lista-info{
+    font-family: 'Courier New', Courier, monospace;
+    color:black;
+}
+
+table{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    width: 75%;
+    margin: 0 auto;
+    border-collapse: separate;
+    border: 0px solid black;
+    border-spacing: 0;
+    
+   }
+
+th,td{
+    vertical-align: top;
+    border: 0px solid #000;
+    border-spacing: 0;
+    
+
+ }
+
+thead{
+    background-color:rgb(174, 229, 231);
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+thead tr:first-child{
+    font-size: 25px;
+    letter-spacing: 5pt;
+}
+
+tbody{
+    text-align: center;
+    
+}
+
+#primera-hora{
+    background-color:rgb(93, 189, 189);
+    text-align: center;
+}
+#tercer-hora{
+    background-color:rgb(129, 218, 218);
+}
+
+#cuarta-hora{
+    background-color: rgb(69, 200, 200);
+}
+
+#receso{
+    letter-spacing: 40pt;
+    text-transform: uppercase;
+    background-color:aquamarine;
+}
+
+#quinta-hora{
+    background-color: rgb(96, 202, 179);
+}
+
+#sexta-hora{
+    background-color: rgb(100, 187, 168);
+}
+#septima-hora{
+    background-color: rgb(89, 228, 198);
+}
+tfoot{
+    background-color:rgb(174, 229, 231);
+}
+
+tr td:first-child{
+    background-color:azure;
+}

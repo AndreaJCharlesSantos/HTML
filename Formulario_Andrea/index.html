@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap" rel="stylesheet">
+    <title>Survey for product X</title>
+</head>
+<body>
+    <div class="content">
+        <header>
+            <div class="content-head">
+                <h1>Survey for Product X</h1>
+                <p>*Obligatorio</p>
+            </div>
+        </header>
+        
+        <form action="segunda.html" method="GET">
+            
+            <!--Contenedor nombre-->
+            <div class="content-principal">
+                <div class="content-correo">
+                        <h2 for="correo">Correo: *</h2>
+                        <input type="text" name="correo" id="correo" placeholder="Escribe tu correo"required maxlength="30">
+                </div>
+
+                <div class="content-nombre">
+                        <h2 for="nombre">Nombre: *</h2>
+                        <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre"required maxlength="30">
+                </div>
+
+                <!--Contenedor de los carros xd-->
+                <div class="content-carro">   
+                        <h2>Which car do you prefer?</h2>
+                        <div class="fila">
+                            <div class="radio">
+                                <input type="radio" name="car" id="car" value="Bocho_poderoso"><label for="car">Bocho poderoso</label>
+                            </div>
+                            <div class="image">
+                                <img src="img/bocho.jpg" >
+                            </div>
+                            <div class="radio">
+                                <input type="radio" name="car" id="car" value="Carro_chiquito"><label for="car">Carrito todo chiquito</label>
+                            </div>
+                            <div class="image">
+                                <img src="img/chiquito.jpg" >
+                            </div>   
+                            <div class="radio">
+                                <input type="radio" name="car" id="car" value="Camioneta"><label for="">Troca</label>
+                            </div>
+                            <div class="image">
+                                <img src="img/camioneta.jpg" >
+                            </div>
+                        </div>
+                </div>
+        
+            </div>
+            <!--Contenedor de botón-->
+            <div class= "button-send">
+                <input type="submit" value="Siguiente">
+            </div>
+        </form>
+    </div>
+    <footer class="">
+
+    </footer>
+</body>
+</html>
