@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Slabo+27px&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="content-principal">
+        <header>
+            <h1>Calculadora</h1>
+        </header>
+        <table id="calc">
+            <tr>
+                <td colspan="4">
+                    <label id="resultado"></label>
+                </td>
+            </tr>
+            <tr>
+                <td><button id="btn_on">ON</button></td>
+                <td><button id="btn_off">0FF</button></td>
+                <td><button id="btn_clear">AC</button></td>
+                <td><button onclick="add('/');" class="operador">/</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="add('7');"  class="btn_numero">7</button></td>
+                <td><button onclick="add('8');" class="btn_numero">8</button></td>
+                <td><button onclick="add('9');" class="btn_numero">9</button></td>
+                <td><button onclick="add('*');" class="operador">x</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="add('4');" class="btn_numero">4</button></td>
+                <td><button onclick="add('5');" class="btn_numero">5</button></td>
+                <td><button onclick="add('6');" class="btn_numero">6</button></td>
+                <td><button onclick="add('-');" class="operador">-</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="add('1');" class="btn_numero">1</button></td>
+                <td><button onclick="add('2');" class="btn_numero">2</button></td>
+                <td><button onclick="add('3');" class="btn_numero">3</button></td>
+                <td><button onclick="add('+');" class="operador">+</button></td>
+            </tr>
+            <tr>
+                <td><button onclick="add('0');" class="btn_numero">0</button></td>
+                <td><button onclick="add('.');" class="btn_numero">.</button></td>
+                <td><button id="btn_res">=</button></td></td>
+            </tr>
+        </table>
+        
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>

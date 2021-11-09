@@ -1,0 +1,36 @@
+body{
+    background-color:gray;
+    font-family: 'Slabo 27px', serif;
+}
+.content-principal{
+    max-width: 750px;
+    margin: 0 auto;
+    background-color:papayawhip;
+    padding:10px;
+    border-radius: 5px;
+}
+.content h1{
+    text-align:center;
+}
+.content p{
+    font-size:20px;
+}
+.content ul li{
+    font-size:18px;
+}
+.content-cal p{
+    font-size: 18px;
+}
+.content-cal input{
+    width:100px;
+    height:25px;
+    font-size:18px;
+    text-align: center;
+}
+.contenido{
+    display:flex;
+}
+.content-cal, .content-img{
+    width:50%;
+    text-align: center;
+}

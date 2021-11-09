@@ -1,0 +1,47 @@
+body{
+    background-color:rgb(235, 190, 190);
+    font-family: 'Slabo 27px', serif;
+}
+.content-principal{
+    max-width: 750px;
+    margin: 0 auto;
+    background-color:rgb(204, 82, 60);
+    padding:10px;
+    border-radius: 5px;
+}
+
+header h1{
+    color: #FFF;
+    text-align: center;
+    font-size:55px;
+    margin: 0 auto;
+}
+
+#calc{
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 20px;
+    background-color:rgb(255, 0, 0);
+    
+}
+
+#calc td{
+    text-align: center;
+}
+.operador, .btn_numero, #btn_on, #btn_off, #btn_clear, #btn_res{
+    border-radius: 10px;
+    font-size: 15px;
+    background-color:black;
+    color:#FFF;
+    padding: 9px;
+}
+label{
+    background: rgba(47, 89, 113, 0.3);
+    font-size:15px;
+    margin: 10px;
+    padding: 7px;
+    text-align: end;
+    color: #FFF;
+    padding-left: 75px;
+    padding-right: 75px;
+}
